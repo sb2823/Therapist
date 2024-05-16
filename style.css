@@ -1,0 +1,122 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+
+.box {
+    border-radius: 25px;
+    border: 5px solid #134611;
+    padding: 10px;
+    width: 500px;
+    margin: 50px auto;
+    height: 120px;
+    background-image: linear-gradient(to right,
+            #6c903941,
+            rgb(245, 205, 75));
+    position: absolute;
+    left: 90px;
+    right: 90px;
+    top: 350px;
+    background-position: center;
+}
+
+.title {
+    text-align: center;
+}
+
+#optionOne {
+    left: 90px;
+}
+
+.form {
+    width: 600px;
+    height: 624px;
+    margin: 50px auto;
+    border: 10px solid #234314;
+    background-image: url("https://as1.ftcdn.net/v2/jpg/02/43/92/36/1000_F_243923692_7SDNFzZ1KYk8797m29LsZQcnAxf2Cf6A.jpg");
+    max-width: 100%;
+   
+}
+
+.clientBtn {
+    float: left;
+    margin-left: 100px;
+    background-color: rgb(174, 219, 40);
+    color: rgb(14, 11, 11);
+    border-radius: 25px;
+}
+
+.therapistBtn {
+
+    float: right;
+    margin-left: 35px;
+    background-color: rgb(174, 219, 40);
+    color: rgb(10, 4, 4);
+    border-radius: 25px;
+
+}
+
+.clientBtn:hover,
+.therapistBtn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+
+
+
+
+
+.background {
+    background-image: url("https://as1.ftcdn.net/v2/jpg/02/43/92/36/1000_F_243923692_7SDNFzZ1KYk8797m29LsZQcnAxf2Cf6A.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.viewTable {
+    width: 100%;
+}
+
+.viewTable td,
+th {
+    border: 2px solid black;
+    height: 45px;
+    width: 40px;
+    font-size: 1.2em;
+}
+
+.viewTable th {
+    font-size: 1.5em;
+}
+
+.btn {
+    margin-left: 47%;
+    background-color: rgb(174, 219, 40);
+    color: rgb(10, 4, 4);
+    border-radius: 25px;
+
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #1a0af2;
+}
